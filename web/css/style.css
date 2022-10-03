@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    font-size: 28px;
+    font-family: 'Alice', serif;
+    background-image: linear-gradient(to right, rgb(153, 216, 241), hsl(221, 47%, 59%));
+}
+
+
+
+.convite {
+    
+    height: auto;
+    padding-top: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    
+    
+    
+}
+
+
+.titulo{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Alice;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mensagem{
+    
+    color: rgb(12, 0, 80);
+    font-size: 24px !important;
+    text-align: center;
+    margin: auto;
+    font-family: Alice;
+    font-weight: bold;
+    
+    
+}
+
+.lista{
+
+    font-size: 15px;
+    font-family: Arial;
+    width: 367px;
+    height: 50px;
+    border-width: 1px;
+    color: #fff;
+    border-color: #18ab29;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-shadow: 1px 1px 0px #2f6627;
+    
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.foto{
+    width: 341px;
+    height: 425%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 4px;
+    
+}
+
+#box{
+    background-image: linear-gradient(to right, rgb(70, 187, 233), rgb(22, 95, 231));
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    
+    
+    
+}
+.confirm{
+    text-align: center;
+}
+
+.button {
+    font-size: 15px;
+    font-family: Arial;
+    width: 191px;
+    height: 50px;
+    border-width: 1px;
+    color: #fff;
+    border-color: #18ab29;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background: blue;
+    text-align: center;
+    margin: auto;
+}
+
+.confirmacao:hover{
+  background: #2F80ED;
+}
+
+#lista{
+    background-image: linear-gradient(to right, rgb(70, 187, 233), rgb(22, 95, 231));
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.lista{
+    text-align: center;
+}
+
+
+
